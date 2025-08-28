@@ -8,6 +8,10 @@
 import UIKit
 
 class MovieTableViewCell: UITableViewCell {
+    
+    @IBOutlet var movieImage: UIImageView!
+    @IBOutlet var movieTitle: UILabel!
+    @IBOutlet var indicatorLoading: UIActivityIndicatorView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
