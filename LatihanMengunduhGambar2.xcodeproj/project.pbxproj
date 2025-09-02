@@ -33,7 +33,7 @@
 		B059837E2E5D4F3400C512B4 /* Exceptions for "LatihanMengunduhGambar2" folder in "LatihanMengunduhGambar2" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				FileSystem/Info.plist,
 			);
 			target = B05983552E5D4F3100C512B4 /* LatihanMengunduhGambar2 */;
 		};
@@ -88,10 +88,10 @@
 		B059834D2E5D4F3100C512B4 = {
 			isa = PBXGroup;
 			children = (
-				B05983582E5D4F3100C512B4 /* LatihanMengunduhGambar2 */,
 				B059836F2E5D4F3400C512B4 /* LatihanMengunduhGambar2Tests */,
 				B05983792E5D4F3400C512B4 /* LatihanMengunduhGambar2UITests */,
 				B05983572E5D4F3100C512B4 /* Products */,
+				B05983582E5D4F3100C512B4 /* LatihanMengunduhGambar2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -290,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LatihanMengunduhGambar2/Info.plist;
+				INFOPLIST_FILE = LatihanMengunduhGambar2/FileSystem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LatihanMengunduhGambar2/Info.plist;
+				INFOPLIST_FILE = LatihanMengunduhGambar2/FileSystem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
